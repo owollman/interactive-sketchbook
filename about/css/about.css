@@ -1,0 +1,42 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+*{
+    margin: 5px;
+}
+body {
+    font-family: "novantique-serif-display", sans-serif
+    color: #26241C;
+    background-color: #b0c4de;
+}
+body{
+    color: #1d1642;
+}
+h1 {font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 60px;
+    font-style: oblique;
+    border: dotted black;
+}
+h2 {
+    font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 32px;
+}
+p {text-indent: 12px;
+font-size: 20px
+;}
+img {
+    width:50% ;
+}
+nav {
+    font-family: "novantique-serif-display", sans-serif;
+    text-align: left;
+    border:solid #324d7684;
+    font-size: 20px;
+    background-color: #9ba8c8;
+}

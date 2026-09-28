@@ -1,0 +1,38 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+*{
+    margin: 5px;
+}
+body {
+    font-family: "novantique-serif-display", sans-serif
+    color: #26241C;
+    background-color: #000000;
+}
+body{
+    color: #a7aca9;
+}
+h1 {font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 60px;
+    font-style: oblique;
+    border: dotted rgba(87, 87, 87, 0.714);
+}
+h2 {
+    font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 32px;
+}
+p {text-indent: 12px;
+font-size: 20px
+;}
+img {
+    width:50% ;
+}
+nav {
+    font-family: "novantique-serif-display", sans-serif;
+    text-align: left;
+    border:solid #74767b84;
+    font-size: 20px;
+    background-color: #a7aca9a8;
+}
