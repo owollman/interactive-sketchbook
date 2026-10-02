@@ -1,0 +1,75 @@
+
+*{margin: 0px;
+   padding: 0px;
+}
+
+*{
+   margin: 25px 50px 25px 50px ;
+}
+
+body {font-family: font-family: "chez-moustache", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+
+
+h1 {margin-bottom: 10px;
+   padding: 10px 15px 10px 15px;
+   border: 1px solid black;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #80ff0080;
+   ;
+}
+
+h2 {
+   margin-top: 2.5%;
+   margin-bottom: 2.55%;
+   background-color: yellow;
+   color: black;
+   padding: 0px 5px 100px 20px;
+   border: 15px dotted black;
+}
+
+p {
+   background-color: blue;
+   color: white;
+   padding: 1px 13px 2px 20px;
+   border: 1px solid black;
+}
+
+code {
+   background-color: white;
+   color: green;
+   border: 0.2px solid black;
+   padding: 2px 4px 2px 4px;
+}
+
+li {
+background-color: green;
+color: white;
+padding: 5px 5px 5px 5px;
+border: 0.5px solid red;
+list-style-type: none;
+
+}
+
+a {
+background-color: yellow;
+font-size: 36px;
+color: black;
+border: 20px solid black;
+text-decoration: none;
+display: block;
+}
+
+.blockTo{
+  display: inline;
+}
+
+
+
+
+
