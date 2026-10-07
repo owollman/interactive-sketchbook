@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: fleetwoodMac;
-  src: url("fonts/fleetwoodMac.ttf");
+  src: url("../fonts/fleetwoodMac.ttf");
 }
 
 * {
@@ -13,17 +13,23 @@
 body {
   background-color: #F2EBDC;
   color: #0d0d0d;
-  font-family: 'fleetwoodMac', sans-serif;
+  font-family: "fleetwoodMac", sans-serif;
   text-transform: uppercase;
 }
 
 h1 {
+  font-family: "fleetwoodMac", sans serif;
   font-size: 45px;
 }
 
 h2 {
+  font-family: "fleetwoodMac";
   font-size: 36px;
   letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 p {
@@ -68,7 +74,36 @@ img {
 INSTRUCTIONS:
 STEPS 1, 2 & 3 are in the index.html file
 */
+#content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 
+#lyrics{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 25%;
+  margin: 25px 50px 45px 50px;
+}
+
+#albuminfo{
+  display: flex;
+flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 38%;
+  margin: 35px 100px 100px 30px;
+  padding: 12px 5px 100px 12px;
+}
+
+#reflection{
+  margin: 25px;
+  
+}
 /* 4. Add display: flex; to flex-container */
 /* 5. Add flex-direction: row; to flex-container; */
 /* 6. Give each column wrapper (flex item) a width in percentages, adjust margin and padding so that it is visually appealing */

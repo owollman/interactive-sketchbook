@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Multi Column Layout Lab</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/column.css">
 </head>
 <body>
 		<header>
@@ -12,8 +12,10 @@
 			
 			<!-- #1 wrap the content with a div -->
 			<!-- #2 wrap the lyrics with a div -->
+		<div id="content">
+			<div id="lyrics">
 		<h2>Lyrics</h2>
-		<!-- <br> -->
+		<br>
 			  <p>If you wake up and don't want to smile<br>
 					If it takes just a little while<br>
 					Open your eyes and look at the day<br>
@@ -53,18 +55,22 @@
 			</div>
 
 			<!-- #3 Wrap the album info with another div  -->
-		
-			  <h2>Album Info</h2><br>
+		<div id="albuminfo">
+			  <h3>Album Info</h3><br>
 			<img src="img/rumours.jpg" alt="Rumours Album Cover">
 			  <p id="info">Rumours is the eleventh studio album by<br> British-American rock band Fleetwood Mac<br>but only the second with Buckingham & Nicks</p>
 			  <ul>
 			  	<li><strong>Album:</strong> Rumours</li>
 			  	<li><strong>Release Date:</strong> February 4, 1977</li>
 			  </ul>
-
-		
+</div>
+		</div>
+		<div id="reflection">
+		<h1>Reflection</h1>
+		<p> After listening to the lecture I was nervous about flexbox but it ended up being a lot easier than I originally anticipated. The parent container is the content one which selects all of the content on the page to organize. Then the next two flex containers are the ones that you want to be separate columns/rows. Once I set all of those up it was pretty easy to just change the margins and padding in order to replicate the image. This gave me a lot of confidence in how I am going to approach the rest of my pages! </p>
+		</div>
 		<footer>
-		  <h2>lyrics and music by Christine McVie</h2>
+		  <h3>lyrics and music by Christine McVie</h3>
 		</footer>
 </body>
 </html>
