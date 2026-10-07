@@ -2,7 +2,7 @@
 for now, you can leave these alone */
 
 *{
-    margin: 5px;
+    margin: 15px;
 }
 body {
     font-family: "novantique-serif-display", sans-serif
@@ -16,23 +16,64 @@ h1 {font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 60px;
     font-style: oblique;
-    border: dotted rgba(87, 87, 87, 0.714);
+    border: dotted #a7aca9;
 }
 h2 {
     font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 32px;
+    border: solid #a7aca9;
+    background-color: #494d4bb3;
+    padding: 5px;
+}
+h3 {
+    font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 25px;
+    background-color: #494d4bb3;
+    padding: 5px;
 }
 p {text-indent: 12px;
-font-size: 20px
-;}
+font-size: 20px;
+display: inline-block;
+}
 img {
-    width:50% ;
+    width:100% ;
+    border: dotted #a7aca9;
+    padding: 10px;
+    align-self: center;
 }
 nav {
     font-family: "novantique-serif-display", sans-serif;
     text-align: left;
     border:solid #74767b84;
     font-size: 20px;
-    background-color: #a7aca9a8;
+    background-color: #494d4bb3;
+}
+
+a {
+    text-decoration: none;
+    color: #a7aca9;
+    padding: 0px 85px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+}
+#imageright{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 40%;
+}
+#textleft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 40%;
 }
