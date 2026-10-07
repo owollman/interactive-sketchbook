@@ -1,13 +1,13 @@
 
 * {
     margin: 5px;
-    padding: ;
+    padding: 2px;
     box-sizing: border-box;
 }
 
 
 body {
-    font-family: "novantique-serif-display", sans-serif
+    font-family: "novantique-serif-display", sans-serif;
     color: #26241C;
     background-color: #8baa90;
 }
@@ -20,6 +20,7 @@ h1 {font-family: "green-fairy-full-combo", sans-serif;
     font-style: oblique;
     border: dotted black;
     background-color:#6c7b3b7e;
+    padding: 0px 15px;
 }
 h2 {
     font-family: "green-fairy-full-combo", sans-serif;
@@ -58,6 +59,7 @@ color:#1c3116;
 text-decoration: none;
 display: inline-block;
 border: solid #1c3116 ;
+padding: 0px 5px 0px 5px;
 }
 
 

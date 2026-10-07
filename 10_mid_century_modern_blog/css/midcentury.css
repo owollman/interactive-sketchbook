@@ -3,9 +3,28 @@ header{
 }
 
 body{
-
+    background-color: rgb(193, 213, 231);
+    margin: 0px 100px 0px 100px;
+    padding: 10px 25px 0px 25px;
 }
-
+html{
+    background-color: rgb(243, 151, 85);
+}
+img{
+    width: 100%;
+}
+footer{
+    background-color: #04ADBF;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #3A400C;
+}
+nav{
+    text-align: center;
+    
+}
 h1 {
     font-family: "Josefin Sans", sans-serif; 
     font-size: 37px;
@@ -21,6 +40,7 @@ h2{
 h3{
     font-family: "Josefin Sans", Sans Serif;
     font-size: 18px;
+    color:#047F8C;
 }
 p{
     font-family: "Lato", Sans Serif;
@@ -31,6 +51,4 @@ font-family:"Josefin Sans", sans-serif;
 font-size: 16px;
 color:#047F8C;
 }
-a{
-    text-decoration: none;
-}
+
