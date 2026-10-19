@@ -41,7 +41,7 @@ p {text-indent: 12px;
 font-size: 20px
 ;}
 img {
-    width:50% ;
+    width:75% ;
 }
 nav {
     font-family: "novantique-serif-display", sans-serif;
@@ -49,4 +49,35 @@ nav {
     border:solid #7b747984;
     font-size: 20px;
     ;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+    width: 30%;
+}
+#two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+    width: 30%;
+}
+#three{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+    width: 30%
 }

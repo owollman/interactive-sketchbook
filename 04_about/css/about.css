@@ -40,3 +40,26 @@ nav {
     font-size: 20px;
     background-color: #9ba8c8;
 }
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0px;
+    width: 30%;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0px;
+    width: 60%;
+}
