@@ -6,7 +6,7 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 *{
-    margin: 5px;
+    margin: 15px;
 }
 body {
     font-family: "novantique-serif-display", sans-serif
@@ -27,32 +27,39 @@ h2 {
     text-align: right;
     font-size: 32px;
 }
-p {text-indent: 12px;
-font-size: 20px
-;}
+p {
+    text-indent: 12px;
+    font-size: 20px;
+}
 img {
-    width:50% ;
+    width:30% ;
+}
+a{
+    text-decoration: none;
+    padding: 0px 85px;
 }
 nav {
     font-family: "novantique-serif-display", sans-serif;
     text-align: left;
-    border:solid #324d7684;
+    border:solid #294062cb;
     font-size: 20px;
-    background-color: #9ba8c8;
+    background-color: #8492b7;
 }
 #content{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 2px;
 }
 #right{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
     width: 30%;
 }
 #left{
@@ -60,6 +67,6 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 0px;
-    width: 60%;
+    margin: 2px;
+    width: 50%;
 }

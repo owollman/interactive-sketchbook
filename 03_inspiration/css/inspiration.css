@@ -2,7 +2,7 @@
 for now, you can leave these alone */
 
 * {
-    margin: 0;
+    margin: 15px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,10 +10,6 @@ for now, you can leave these alone */
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
-
-*{
-    margin: 5px;
-}
 body {
     font-family: "novantique-serif-display", sans-serif
     color: #26241C;
@@ -28,33 +24,39 @@ h1 {font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 60px;
     font-style: oblique;
-    border: dotted rgba(87, 87, 87, 0.714);
-    background-color: #a26f8971
+    border: dotted #4b3445ea;
+    padding: 0px 35px;
 }
 h2 {
     font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 32px;
-    background-color: #da419071;
+    background-color: #a26f8971;
 }
 p {text-indent: 12px;
 font-size: 20px
 ;}
 img {
     width:75% ;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    padding: 0px 85px;
 }
 nav {
     font-family: "novantique-serif-display", sans-serif;
     text-align: left;
-    border:solid #7b747984;
+    border:solid #4b3445ea;
+    background-color: #a26f8971;
     font-size: 20px;
-    ;
+    
 }
 #content{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 2px;
 }
 #one{
@@ -62,22 +64,25 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-self: flex-start;
     margin: 2px;
-    width: 30%;
+    width: 35%;
 }
 #two{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-self: flex-start;
     margin: 2px;
-    width: 30%;
+    width: 35%;
 }
 #three{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-self: flex-start;
     margin: 2px;
     width: 30%
 }

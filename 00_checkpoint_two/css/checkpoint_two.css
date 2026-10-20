@@ -1,0 +1,73 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+*{
+    margin: 15px;
+}
+body {
+    font-family: "novantique-serif-display", sans-serif
+    color: #26241C;
+    background-color: #6d665d;
+}
+body{
+    color: #000000;
+    font-size: 20px;
+}
+h1 {font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 60px;
+    font-style: oblique;
+    border: dotted #22201d;
+    padding: 25px;
+}
+h2 {
+    font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 32px;
+    border: solid #22201d;
+    background-color: #4541406c;
+    padding: 5px;
+}
+h3 {
+    font-family: "green-fairy-full-combo", sans-serif;
+    text-align: right;
+    font-size: 25px;
+    background-color: #494d4bb3;
+    padding: 5px;
+}
+h4 {
+    font-family:"novantique-serif-display", sans-serif ;
+    font-size: 18px;
+    font-variant: small-caps;
+    background-color: #494d4b5d;
+    border: dotted #22201d;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+p {text-indent: 12px;
+font-size: 20px;
+}
+img {
+    width:20% ;
+    border: solid #22201d;
+    padding: 10px;
+    align-self: center;
+}
+nav {
+    font-family: "novantique-serif-display", sans-serif;
+    text-align: left;
+    border:solid #22201d;
+    font-size: 20px;
+    background-color: #4541406c;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 85px;
+}
+ul{
+    padding: 0px 0px 0px 150px;
+}
+
