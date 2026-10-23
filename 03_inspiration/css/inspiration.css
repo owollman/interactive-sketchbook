@@ -11,14 +11,15 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 body {
-    font-family: "novantique-serif-display", sans-serif
+    font-family: "novantique-serif-display", sans-serif;
     color: #26241C;
     
     background-color: #ffc0cb ;
 }
 body{
+    height: 100dvh;
     color: #41132b;
-    background-color: #b97086b1;
+    background-image: radial-gradient(#dc859f, #acc073);
 }
 h1 {font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
@@ -31,24 +32,35 @@ h2 {
     font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 32px;
-    background-color: #a26f8971;
+    background-color: #9cab76a3;
 }
 p {text-indent: 12px;
-font-size: 20px
-;}
+font-size: 20px;
+line-height: 2;
+}
 img {
     width:75% ;
     align-self: center;
+     border: double #ccde9a;
+    border-width: 15px;
+}
+hr{
+    border: none;
+    border-top: dotted #ccde9a;
+    border-width: 10px;
 }
 a{
     text-decoration: none;
     padding: 0px 85px;
+    font-family: "novantique-serif-display", sans-serif;
+    text-align: center;
+
 }
 nav {
     font-family: "novantique-serif-display", sans-serif;
     text-align: left;
     border:solid #4b3445ea;
-    background-color: #a26f8971;
+    background-color: #abc07379;
     font-size: 20px;
     
 }
@@ -56,7 +68,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin: 2px;
 }
 #one{
@@ -66,7 +78,9 @@ nav {
     justify-content: space-between;
     align-self: flex-start;
     margin: 2px;
-    width: 35%;
+    width: 30%;
+    border: double #ccde9a;
+    border-width: 15px;
 }
 #two{
     display: flex;
@@ -76,6 +90,8 @@ nav {
     align-self: flex-start;
     margin: 2px;
     width: 35%;
+     border: double #ccde9a;
+    border-width: 15px;
 }
 #three{
     display: flex;
@@ -84,5 +100,7 @@ nav {
     justify-content: space-between;
     align-self: flex-start;
     margin: 2px;
-    width: 30%
+    width: 30%;
+    border: double #ccde9a;
+    border-width: 15px;
 }

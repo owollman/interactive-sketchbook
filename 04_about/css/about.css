@@ -9,12 +9,13 @@ go ahead and play with these, can you get the colors to change? What do you noti
     margin: 15px;
 }
 body {
-    font-family: "novantique-serif-display", sans-serif
+    font-family: "novantique-serif-display", sans-serif;
     color: #26241C;
     background-color: #b0c4de;
 }
 body{
     color: #1d1642;
+    background-image: radial-gradient(#c8d7ee,#94a9c5, #114486);
 }
 h1 {font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
@@ -30,12 +31,17 @@ h2 {
 p {
     text-indent: 12px;
     font-size: 20px;
+    line-height: 2;
 }
-img {
-    width:30% ;
+iframe {
+    padding: 5px;
+    border: double #e1e7f0;
+    border-width: 5px;
+    align-self: left;
 }
 a{
     text-decoration: none;
+    text-align: right;
     padding: 0px 85px;
 }
 nav {
@@ -60,7 +66,7 @@ nav {
     align-items: center;
     margin: 2px;
     padding: 10px;
-    width: 30%;
+    width: 50%;
 }
 #left{
     display: flex;
