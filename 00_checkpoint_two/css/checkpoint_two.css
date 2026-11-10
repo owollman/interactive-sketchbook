@@ -32,7 +32,7 @@ h3 {
     font-family: "green-fairy-full-combo", sans-serif;
     text-align: right;
     font-size: 25px;
-    background-color: #494d4bb3;
+    background-color: #4541406c;
     padding: 5px;
 }
 h4 {
@@ -67,6 +67,10 @@ a {
     text-decoration: none;
     color: #000000;
     padding: 0px 85px;
+}
+a:hover {
+    color: #b7e2a1;
+    
 }
 ul{
     padding: 0px 0px 0px 150px;

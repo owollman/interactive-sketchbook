@@ -12,7 +12,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
 
 *{
-    margin: 5px;
+    margin: 15px;
 }
 body {
     font-family: "novantique-serif-display", sans-serif
@@ -43,11 +43,22 @@ font-size: 20px
 img {
     width:50% ;
 }
+a{
+    color: #41132b;
+    text-decoration: none;
+    padding: 0px 88px;
+    font-family: "novantique-serif-display", sans-serif;
+    text-align: center;
+}
+a:hover{
+    color: #cdffc0;
+}
 nav {
     font-family: "novantique-serif-display", sans-serif;
     text-align: left;
-    border:solid #7b747984;
+    border:solid #4b3445ea;
+    background-color: #e8c4d771;
     font-size: 20px;
-    ;
+    
 }
 

@@ -68,6 +68,10 @@ a {
     color: #a7aca9;
     padding: 0px 85px;
 }
+a:hover {
+    color: #b7e2a1;
+    
+}
 #content{
     display: flex;
     flex-direction: row;

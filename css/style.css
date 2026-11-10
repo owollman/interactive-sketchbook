@@ -64,6 +64,10 @@ display: block;
 border: solid #1c3116 ;
 padding: 0px 100px;
 }
+a:hover {
+    color: #b7e2a1;
+    
+}
 
 html{
     background-color: #32372e;
