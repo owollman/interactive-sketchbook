@@ -66,7 +66,8 @@ padding: 0px 100px;
 }
 a:hover {
     color: #b7e2a1;
-    
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 html{
