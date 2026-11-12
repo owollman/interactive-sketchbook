@@ -92,7 +92,7 @@ hr{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 2px;
-    width: 50%;
+    width: 70%;
 }
 #image{
     display: flex;
@@ -104,11 +104,11 @@ hr{
 
 #navigate{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 2px;
-    width: 75%;
+    width: 30%;
 }
 
 
